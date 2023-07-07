@@ -1,6 +1,6 @@
 'Creating own custom exception'
 import sys
-import logging
+from src.logger import logging
 
 def error_message_details(error, error_detail:sys):
     'error_detail will be present inside sys module'
